@@ -1,0 +1,53 @@
+body {
+  line-height: 1.5;
+}
+
+ul{
+  font-size: 25;
+}
+button {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #0e3954);
+  background-image: -moz-linear-gradient(top, #d93434, #0e3954);
+  background-image: -ms-linear-gradient(top, #d93434, #0e3954);
+  background-image: -o-linear-gradient(top, #d93434, #0e3954);
+  background-image: linear-gradient(to bottom, #d93434, #0e3954);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #d46f6f;
+  background-image: -webkit-linear-gradient(top, #d46f6f, #e07777);
+  background-image: -moz-linear-gradient(top, #d46f6f, #e07777);
+  background-image: -ms-linear-gradient(top, #d46f6f, #e07777);
+  background-image: -o-linear-gradient(top, #d46f6f, #e07777);
+  background-image: linear-gradient(to bottom, #d46f6f, #e07777);
+  text-decoration: none;
+}
+
+
+ul {
+      list-style: none;
+    }
+
+    ul li:before {
+      content:"\2022";
+      margin-right: 5px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    ul li:hover {
+      color: red;
+    }
+
+    ul li:hover:before {
+      color: red;
+    }
